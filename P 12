@@ -1,0 +1,7 @@
+# Q 10
+# קלוט מס והצג את השלם הזוגי הגדול ממנו הקרוב אליו.
+num= float(input("please type the number-->"))
+num_int=int(num)
+residual= num_int % 2
+result=num_int-residual+2
+print(result)
